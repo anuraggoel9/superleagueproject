@@ -6,10 +6,10 @@
         <artifactId>proj3</artifactId>
         <version>1.0-Anurag</version>
     </parent>
-
-    <artifactId>project</artifactId>
+    <artifactId>proj3</artifactId>
     <packaging>war</packaging>
     <name>Project</name>
+	
  <dependencies>
         <!-- runtime dependency -->
         <dependency>
@@ -48,5 +48,11 @@
             </build>
         </profile>
     </profiles>
-
+<distributionManagement>   
+    <repository>
+      <id>GIT-Jenkins-Repo</id>
+      <name>GIT-Jenkins-Repo</name>
+      <url>http://34.93.22.120:8081/repository/GIT-Jenkins-Repo/</url>
+    </repository>
+  </distributionManagement>
 </project>
