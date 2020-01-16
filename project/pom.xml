@@ -6,7 +6,7 @@
         <artifactId>proj3</artifactId>
         <version>1.0-Anurag</version>
     </parent>
-    <artifactId>proj3</artifactId>
+    <artifactId>Project</artifactId>
     <packaging>war</packaging>
     <name>Project</name>
 	
